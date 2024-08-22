@@ -25,6 +25,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class UsersControllerWithTestcontainersTest {
 
+
     @Autowired
     private TestRestTemplate testRestTemplate;
 
